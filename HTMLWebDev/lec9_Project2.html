@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+    <form>
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" id="Name">
+       
+        <br/>
+        <br/>
+
+        <label for="Email">Email ID:</label>
+        <input type="email" name="Email" id="Email">
+
+        <br/>
+        <br/>
+
+        <label for="Phone">Phone No. :</label>
+        <input type="tel" name="Phone" id="Phone">
+
+        <br/>
+        <br/>
+
+        <label for="FileUpload">Resume :</label>
+        <input type="file" name="FileUpload" id="FileUpload">
+
+        <br/>
+        <br/> 
+
+        <label for="counter">Experience (in Years) :</label>
+        <input type="number" name="counter" id="counter" min="0" max="50">
+
+        <fieldset>
+            <legend for="">skills : </legend>
+
+            <input type="checkbox" name="checkbox" id="checkbox1">
+            <label for="checkbox1">HTML</label>
+
+            <br/>
+            <br/>
+            
+            <input type="checkbox" name="checkbox" id="checkbox2">
+            <label for="checkbox2">CSS</label>
+
+            <br/>
+            <br/>
+
+            <input type="checkbox" name="checkbox" id="checkbox3">
+            <label for="checkbox3">Javascript</label>
+
+        </fieldset>
+
+        <br/>
+        <br/>
+
+        <label for="educationtype">Highest Education</label>
+        
+        <br/>
+        <br/>
+
+        <select name="Education Type" id="educationtype">
+            <option value="ssc">SSC</option>
+            <option value="HSC">HSC</option>
+            <option value="Undergraduate">Undergraduate</option>
+            <option value="graduate">Graduate</option>
+            <option value="postgraduate">Postgraduate</option>
+
+        </select>
+
+        
+        <br/>
+        <br/>
+
+        <fieldset>
+            <legend>Availability: </legend>
+        <br/>
+        <br/>
+            <label for="radio1">Full-Time</label>
+            <input type="radio" name="radio" id="radio1">
+
+        <br/>
+        <br/>
+
+            <label for="radio2">Part-Time</label>
+            <input type="radio" name="radio" id="radio2">
+
+        <br/>
+        <br/>
+
+        </fieldset>
+
+        <br/>
+        <br/>
+
+        <label for="textarea1">Additional Comments : </label>
+        <textarea name="textarea1" id="textarea1" cols="30" rows="5"></textarea>
+
+        <br/>
+        <br/>
+        
+        <input type="submit" value="Sibmit Application">
+    </form>
+</body>
+</html>

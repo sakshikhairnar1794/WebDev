@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--External css-->
+
+
+    
+<!-- Internal CSS -->
+    <style>
+        h1{
+            color: blue;
+        }
+
+        p{
+            background-color: blueviolet ;
+        }
+
+        /*Even if the background colour is set bluevoilet for the paragraphs, it wont change for the 1st paragraph because the priority for inline css > internal css-->
+    
+         TO change this, one can use !important afetr the internal css command-->
+
+        Eg
+    
+        p{
+            background-color: blueviolet !important;
+        }
+    
+    */
+    </style>
+
+    <link rel="stylesheet" href="script.css">
+    
+</head>
+<body>
+
+
+    <h1>Welcome to Codehelp</h1>
+
+<!-- Inline CSS -->
+    <p style="background-color: red;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim maiores fugiat nesciunt, in nostrum commodi? Quae et hic repudiandae numquam!</p>
+
+    <p style="color:green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aliquam a tempore quam, aspernatur perspiciatis aut enim delectus officia adipisci repellendus nihil? Exercitationem labore et blanditiis, autem cum officia possimus.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eligendi rem aliquid eius totam accusamus atque rerum suscipit quia dicta obcaecati perferendis a voluptatibus voluptatem non quam expedita impedit corporis quo officia, sed, autem nulla ea. Cupiditate nam illo facilis? Alias deleniti veritatis doloremque expedita animi iusto autem ratione blanditiis!</p>
+    
+
+    <footer>I am footer</footer>
+</body>
+</html>

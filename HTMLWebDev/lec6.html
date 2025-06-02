@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--image tag in paragraph  (p>img)-->
+    <p>
+        <img src="" alt="">
+    </p>
+
+    <!--paragraph in paragraph (p>p) -->
+    <p>
+        <p>
+            
+        </p>
+    </p>
+
+    <!--  
+        > is used  for  nesting two or more tags and they act as parent and child
+
+        + is used for bringing two or more tags tpgether and they act as siblings
+    -->
+
+    <!-- article+section -->
+        <article></article>
+        <section></section>
+
+    <!-- p+a -->
+        <p></p>
+        <a href=""></a>
+
+    <!-- To write the content in the tags
+            p{-----} 
+    -->
+        <p>sakshi khairnar</p>
+        <h3>sakshi</h3>
+        <article>this is my article</article>
+        <section>this is my section</section>
+
+    <!-- Anchor tag and curley braces
+        a{click here} 
+    -->
+        <a href="">click here</a>
+    
+<!-- Div of wrapper class (.wrapper)-->
+<div class="wrapper">
+    <!-- nesting-->
+
+        <p>
+            <ul>
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+            </ul>
+        </p>
+
+    <!-- different ways of writing-->
+    
+    <!-- section>p+p+p -->
+        <section>
+            <p></p>
+            <p></p>
+            <p></p>
+        </section>
+    
+    <!-- section>p*3 -->
+
+        <section>
+            <p></p>
+            <p></p>
+            <p></p>
+        </section>
+
+    </div>
+<!-- Creating the div (.container)-->
+ <div class="container">
+    <!-- header+main+footer -->
+
+        <header></header>
+        <main></main>
+        <footer></footer>
+
+    <!-- section>(ul>li*2)+footer -->
+
+    <section>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+        <footer></footer>
+    </section>
+</div>
+
+<!-- Block element
+    occupies whole space
+-->
+    <div style="Background: aqua;" >This is my first div</div>
+    <div style="Background: maroon;" >This is my second div</div>
+
+<!-- inline element 
+    Doesn't occupy whole space
+-->
+    <span style="Background: yellow;">This is my first span tag</span>
+    <span style="Background: red;">This is my second span tag</span>
+
+    <p style="Background: brown;">This is my first para</p>
+    <p style="Background: pink;">This is my first para</p>
+<!-- To convert inline into block and vise a versa -->
+    <p style="Background: brown;display:inline;">This is my first para</p>
+    <span style="Background: yellow;display: block;">This is my first span tag</span>
+
+
+<!-- More about lists -->
+
+<!-- ul>li*5 -->
+    <ul>
+        <li>a</li>
+        <li>d</li>
+        <li>v</li>
+        <li>b</li>
+        <li>l</li>
+    </ul>
+
+<!-- ul>(li>p)*5 -->
+
+    <ul>
+        <li>
+            <p>a</p>
+        </li>
+        <li>
+            <p>b</p>
+        </li>
+        <li>
+            <p>c</p>
+        </li>
+        <li>
+            <p>d</p>
+        </li>
+        <li>
+            <p>e</p>
+        </li>
+    </ul>
+
+
+<!-- ul>(li>p>a)*5 -->
+
+    <ul>
+        <li>
+            <p><a href="https:///www.google.com">g</a></p>
+        </li>
+        <li>
+            <p><a href="">j</a></p>
+        </li>
+        <li>
+            <p><a href="">k</a></p>
+        </li>
+        <li>
+            <p><a href="">l</a></p>
+        </li>
+        <li>
+            <p><a href="">m</a></p>
+        </li>
+    </ul>
+
+
+<!-- nav tag -->
+
+    <nav>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="">login</a></li>
+        </ul>
+    </nav>
+
+
+
+<!-- More about anchor tag -->
+
+<a href="https://www.codehelp.in">Chalo codehelp</a>
+<a href="mailto:sakshikhairnar40@gmial.com">Email</a>
+<a href="tel:9922870020">Call us </a>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --custom-width : 330px;
+        }
+        .container{
+            background-color: beige;
+            height: 650px;
+            border: 2px;
+            display: flex;
+            justify-content: center;
+        }
+        .box{
+            /* creating variable to be used inside these brackets */
+           
+            
+            background-color: aqua;
+            width: var(--custom-width);
+            height: 330px;
+            border: 1px solid var(--primary-colour);
+            margin: 5px;
+            padding: 5px;
+
+           /* 
+           normal box shadow
+           box-shadow: 10px 15px brown;*/
+
+           /* box shadow using blur radius
+           
+            box-shadow: 10px 15px 50px red;
+            */
+            /* box shadow using spread radius
+            box-shadow: 10px 15px 5px 20px red;
+            */
+          
+            /* box shadow insert 
+             box-shadow: inset 10px 15px brown;
+             */
+
+             /* multiple shadow */
+
+             box-shadow: 10px 15px red, -15px 10px pink;
+           
+            
+        }
+        .img{
+            height: 50px;
+            width: 60px;
+        }
+        #heading1{
+            text-shadow: 12px 13px 2px red, 22px 13px 2px purple, 12px 13px 2px green ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img class="img" src="/Lecture22/2.jpg" alt="img">
+            <h2 id="heading1">Welcome to codehelp</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, ab aliquid nesciunt laudantium, tempora, est error odit ad quos ex asperiores hic cum eligendi fugit quibusdamsus.</p>
+        </div>
+    </div>
+</body>
+</html>
