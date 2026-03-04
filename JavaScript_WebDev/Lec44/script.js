@@ -15,7 +15,7 @@ console.log(typeof(obj));
 
 
 //Array creation
-let arr = [1,2,3,4,5];
+let arr = [1,2,3,4,5, 'Sakshi','Khairnar'];
 arr.shift();
 arr.unshift(10);
 
@@ -60,3 +60,14 @@ let evenarray = drr.filter((number) =>{
 })
 
 console.log(evenarray);
+
+let filteredValue = arr.filter((value) =>{
+    if(typeof(value) === "string"){
+        return true;
+    }
+    else{
+        return false;
+    }
+})
+console.log(filteredValue);  
+
