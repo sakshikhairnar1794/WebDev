@@ -29,19 +29,19 @@
 // Unary operators 
 // requires single operand 
 
-//preincrement
-//let a = 5;
+// preincrement
+// let a = 5;
 // console.log(++a);
 
-//postincrement
+// postincrement
 // let a = 5;
 // console.log(a++);
 
-//postdecrement
+// postdecrement
 // let a = 5;
 // console.log(a--);
 
-//predecrement 
+// predecrement 
 // let a = 5;
 // console.log(--a);
 
@@ -74,7 +74,7 @@
 // let status1=(age>5) ? "i can vote" : "I cannot vote";
 // console.log(status1);
 
-//logical operator
+// logical operator
 
 // let ans = (true && true && true);
 // console.log(ans); 
@@ -92,7 +92,7 @@
 // let ans3 = (false|| 4 || 8);
 // console.log(ans3);
 
-//short circuit
+// short circuit
 // let ans3 = (false && 4 && 8);
 // console.log(ans3);
 
@@ -116,7 +116,7 @@
 // let ans3 = (" " && false);
 // console.log(ans3);
 
-//Bitwise operator
+// Bitwise operator
 
 // console.log(2&5);
 
@@ -139,7 +139,7 @@
 //     console.log("cannot vote");
 // }
 
-//if else if
+// if else if
 // let age = 3;
 // if(age==18){
 //     console.log("can vote this year");
